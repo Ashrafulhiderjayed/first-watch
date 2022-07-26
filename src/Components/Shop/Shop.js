@@ -21,7 +21,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                Order Summary 
+                <h4>Order Summary: </h4>
             </div>
         </div>
     );

@@ -1,9 +1,25 @@
 .product{
     height: 508px;
     width: 300px;
+    border: 1px solid silver;
+    border-radius: 10px;
 }
 
 .product img{
     height: 286px;
     width: 286px;
+}
+
+.product-info{
+    margin-left: 14px;
+}
+
+.button{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 0;
+}
+
+.icon{
+    margin-left: 9px;
 }
