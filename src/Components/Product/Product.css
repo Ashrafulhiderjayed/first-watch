@@ -3,6 +3,7 @@
     width: 300px;
     border: 1px solid silver;
     border-radius: 10px;
+    position: relative;
 }
 
 .product img{
@@ -14,10 +15,17 @@
     margin-left: 14px;
 }
 
-.button{
+.btn-cart{
     width: 100%;
+    border: none;
     padding: 8px;
-    margin-bottom: 0;
+    background-color: LightSalmon;
+    position: absolute;
+    bottom: 0px;
+}
+.btn-cart:hover{
+    color: whitesmoke;
+    background-color: tomato;
 }
 
 .icon{
